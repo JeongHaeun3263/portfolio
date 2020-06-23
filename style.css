@@ -13,6 +13,7 @@
   --color-grey: #616161;
   --color-light-grey: #7c7979;
   --color-black: #000000;
+  --color-orange: #feb546;
 
   /* Font size */
   --font-large: 48px;
@@ -205,6 +206,7 @@ p {
 .history {
   display: flex;
   align-items: center;
+  padding: 20px 0;
 }
 
 .history__description {
@@ -255,7 +257,7 @@ p {
 
 .skill__value {
   height: 3px;
-  background-color: orange;
+  background-color: var(--color-orange);
 }
 
 .skill {
