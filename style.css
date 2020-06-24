@@ -285,7 +285,6 @@ p {
 }
 
 /* Work */
-
 .work__categories {
   margin: 40px;
 }
@@ -366,11 +365,6 @@ p {
   transform: translateY(0px);
 }
 
-.project:hover .project__icon a {
-  opacity: 0.7;
-  transform: translateY(0px);
-}
-
 .project__description h3 {
   color: var(--color-white);
 }
@@ -387,6 +381,44 @@ p {
   display: block;
 }
 
-.project__icon i {
-  padding: 5px 10px;
+/* Testimonial */
+#testimonials {
+  background-color: var(--color-light-white);
+}
+
+.testimonials {
+  margin: 40px;
+}
+
+.testimonial {
+  display: flex;
+  margin: 32px 0;
+}
+
+.testimonial__avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.testimonial__avatar:nth-child(odd) {
+  margin-right: 40px;
+}
+
+.testimonial__avatar:nth-child(even) {
+  margin-left: 40px;
+}
+
+.testimonial__speech-bubble {
+  padding: 18px;
+  background-color: var(--color-white);
+  border-radius: var(--size-border-radius);
+}
+
+.testimonial__speech-bubble p {
+  color: var(--color-light-grey);
+}
+
+.testimonial__speech-bubble a {
+  color: var(--color-bark-blue);
 }
