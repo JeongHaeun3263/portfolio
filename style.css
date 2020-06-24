@@ -8,7 +8,7 @@
   --color-ivory: #fafaee;
   --color-green: #a8dadc;
   --color-blue: #457b9d;
-  --color-bark-blue: #1d3557;
+  --color-dark-blue: #1d3557;
   --color-dark-grey: #4d4d4d;
   --color-grey: #616161;
   --color-light-grey: #7c7979;
@@ -125,7 +125,7 @@ p {
 }
 
 .navbar__menu__item:hover {
-  background-color: var(--color-bark-blue);
+  background-color: var(--color-dark-blue);
 }
 
 /* Home */
@@ -298,7 +298,7 @@ p {
 
 .category__btn.active,
 .category__btn:hover {
-  background-color: var(--color-bark-blue);
+  background-color: var(--color-dark-blue);
   color: var(--color-white);
 }
 
@@ -420,5 +420,33 @@ p {
 }
 
 .testimonial__speech-bubble a {
-  color: var(--color-bark-blue);
+  color: var(--color-dark-blue);
+}
+
+/* Contacnt */
+#contact {
+  background-color: var(--color-dark-blue);
+}
+
+.contact__title,
+.contact__email,
+.contact__rights {
+  color: var(--color-white);
+}
+
+.contact__title {
+  margin: 32px 0;
+}
+
+.contact__links {
+  font-size: var(--font-large);
+  margin: 24px 0;
+}
+
+.contact__links i {
+  transition: all var(--animation-duration) ease;
+}
+
+.contact__links i:hover {
+  transform: scale(1.1);
 }
