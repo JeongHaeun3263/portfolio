@@ -97,12 +97,20 @@ p {
 
 /* Navbar */
 #navbar {
+  position: fixed;
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-blue);
+  width: 100%;
   align-items: center;
   color: var(--color-white);
   padding: 16px;
+  background-color: transparent;
+  transition: all var(--animation-duration) ease-in-out;
+}
+
+#navbar.navbar--dark {
+  background-color: var(--color-dark-blue);
+  padding: 8px;
 }
 
 .navbar__logo {
@@ -130,7 +138,7 @@ p {
 
 .navbar__toggle-btn {
   position: absolute;
-  top: 24px;
+  top: 18px;
   right: 32px;
   font-size: 24px;
   color: var(--color-white);
@@ -141,6 +149,7 @@ p {
 #home {
   background: url("imgs/home.png") center/cover no-repeat;
   padding: 40px;
+  padding-top: 120px;
   text-align: center;
 }
 
@@ -239,7 +248,7 @@ p {
 
 /* Skill */
 #skills {
-  background-color: var(--color-green);
+  background-color: var(--color-ivory);
 }
 
 .skillset {
@@ -266,7 +275,7 @@ p {
 
 .skill__value {
   height: 3px;
-  background-color: var(--color-orange);
+  background-color: var(--color-red);
 }
 
 .skill {
@@ -308,7 +317,7 @@ p {
 
 .category__btn.active,
 .category__btn:hover {
-  background-color: var(--color-dark-blue);
+  background-color: var(--color-red);
   color: var(--color-white);
 }
 
@@ -319,9 +328,9 @@ p {
 }
 
 .category__count {
-  background-color: var(--color-blue);
+  background-color: var(--color-ivory);
   border-radius: 50%;
-  color: var(--color-white);
+  color: var(--color-red);
   width: 24px;
   height: 24px;
   display: inline-block;
