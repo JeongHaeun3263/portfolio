@@ -511,6 +511,10 @@ p {
     background-color: var(--color-blue);
   }
 
+  #navbar.navbar--dark {
+    padding: 16px;
+  }
+
   .navbar__menu {
     flex-direction: column;
     text-align: center;
