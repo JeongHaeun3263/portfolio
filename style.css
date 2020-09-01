@@ -193,7 +193,42 @@ p {
 }
 
 /* About */
-.about__majors {
+
+.about__description {
+  padding-bottom: 50px;
+}
+
+.history {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.history__description {
+  margin: 0 16px;
+  text-align: left;
+}
+
+.history__name,
+.history__period {
+  color: var(--color-light-grey);
+}
+
+.history__name {
+  font-size: var(--font-small);
+  font-weight: var(--weight-semi-bold);
+}
+
+.history__period {
+  font-size: var(--font-micro);
+}
+
+/* Skill */
+#skills {
+  background-color: var(--color-white);
+}
+
+.skills__majors {
   display: flex;
   justify-content: space-between;
   margin: 80px 0;
@@ -224,87 +259,6 @@ p {
 
 .major__description {
   font-size: var(--font-small);
-}
-
-.history {
-  display: flex;
-  align-items: center;
-  padding: 20px 0;
-}
-
-.history__description {
-  margin: 0 16px;
-  text-align: left;
-}
-
-.history__name,
-.history__period {
-  color: var(--color-light-grey);
-}
-
-.history__name {
-  font-size: var(--font-small);
-  font-weight: var(--weight-semi-bold);
-}
-
-.history__period {
-  font-size: var(--font-micro);
-}
-
-/* Skill */
-#skills {
-  background-color: var(--color-ivory);
-}
-
-.skillset {
-  display: flex;
-  background-color: var(--color-light-grey);
-  color: var(--color-light-white);
-  margin: 20px 0;
-}
-
-.skillset__title {
-  color: var(--color-white);
-}
-
-.skill__description {
-  display: flex;
-  justify-content: space-between;
-}
-
-.skill__bar {
-  width: 100%;
-  height: 3px;
-  background-color: var(--color-grey);
-}
-
-.skill__value {
-  height: 3px;
-  background-color: var(--color-red);
-}
-
-.skill {
-  margin-bottom: 20px;
-}
-
-.skillset__left {
-  flex-basis: 60%;
-  background-color: var(--color-dark-grey);
-  padding: 20px 40px;
-}
-
-.skills__description,
-.skillset__right {
-  flex-basis: 40%;
-}
-
-.tools {
-  background-color: var(--color-grey);
-}
-
-.tools,
-.etc {
-  padding: 20px;
 }
 
 /* Work */
@@ -548,7 +502,7 @@ p {
     padding-top: 40px;
   }
 
-  .about__majors {
+  .skills__majors {
     flex-direction: column;
     margin-top: 30px;
     margin-bottom: 0px;
