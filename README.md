@@ -16,4 +16,5 @@ Portfoilo https://jeonghaeun3263.github.io/portfolio/
 ### Contact
 
 LinkedIn https://www.linkedin.com/in/haeunjeong/
+
 Email grace.he.jeong@gmail.com
