@@ -4,7 +4,7 @@
 
 ### Work
 
-Portfoilo https://jeonghaeun3263.github.io/portfolio/
+Portfoilo https://www.gracehaeun.com
 
 ### Skills
 
