@@ -375,6 +375,12 @@ p {
 	display: block;
 }
 
+.project__description a {
+	color: #eeeeee;
+	margin: 5px;
+	text-transform: uppercase;
+}
+
 /* Testimonial */
 #testimonials {
 	background-color: var(--color-light-white);
