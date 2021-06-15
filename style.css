@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 /* Global */
 :root {
 	/* Color */
@@ -42,7 +44,7 @@
 
 body {
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	cursor: default;
 }
 
@@ -73,6 +75,7 @@ h1 {
 	font-weight: var(--weight-bold);
 	color: var(--color-black);
 	margin: 16px 0px;
+	text-transform: uppercase;
 }
 
 h2 {
@@ -196,6 +199,7 @@ p {
 /* About */
 .about__description {
 	padding-bottom: 50px;
+	text-align: left;
 }
 
 .history {
