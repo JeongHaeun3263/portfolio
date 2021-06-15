@@ -565,3 +565,9 @@ p {
 		font-size: 40px;
 	}
 }
+
+@media only screen and (max-width: 480px) {
+	.project__description {
+		opacity: 0.65;
+	}
+}
